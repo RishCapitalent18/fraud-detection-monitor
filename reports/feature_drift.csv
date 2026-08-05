@@ -1,0 +1,10 @@
+feature,psi,band
+is_online,0.1149,moderate
+amount,0.1083,moderate
+amount_to_avg_ratio,0.0869,stable
+distance_from_home_km,0.0775,stable
+hour,0.001,stable
+account_age_days,0.0009,stable
+prior_disputes,0.0005,stable
+txns_last_hour,0.0001,stable
+late_night,0.0,stable

@@ -1,0 +1,470 @@
+[
+  {
+    "row": 3686,
+    "fraud_probability": 0.9991981286132641,
+    "base_log_odds": -5.716659235108462,
+    "merchant_category": "electronics",
+    "amount": 528.11,
+    "top_contributions": [
+      {
+        "feature": "amount_to_avg_ratio",
+        "shap": 8.341207174522637,
+        "value": 22.124
+      },
+      {
+        "feature": "amount",
+        "shap": 2.7417516687166623,
+        "value": 528.11
+      },
+      {
+        "feature": "distance_from_home_km",
+        "shap": 0.9922979912800989,
+        "value": 123.7
+      },
+      {
+        "feature": "merch_electronics",
+        "shap": 0.22235924702981874,
+        "value": 1.0
+      },
+      {
+        "feature": "late_night",
+        "shap": 0.21097225195130276,
+        "value": 1.0
+      },
+      {
+        "feature": "account_age_days",
+        "shap": 0.15779155126607503,
+        "value": 925.0
+      }
+    ]
+  },
+  {
+    "row": 6705,
+    "fraud_probability": 0.9990514497177512,
+    "base_log_odds": -5.716659235108462,
+    "merchant_category": "gas",
+    "amount": 403.19,
+    "top_contributions": [
+      {
+        "feature": "amount_to_avg_ratio",
+        "shap": 9.395136146233542,
+        "value": 36.323
+      },
+      {
+        "feature": "amount",
+        "shap": 2.2608680320491787,
+        "value": 403.19
+      },
+      {
+        "feature": "account_age_days",
+        "shap": 1.4390206590773895,
+        "value": 909.0
+      },
+      {
+        "feature": "merch_gas",
+        "shap": -0.23971610014652775,
+        "value": 1.0
+      },
+      {
+        "feature": "is_online",
+        "shap": -0.1910663577804761,
+        "value": 0.0
+      },
+      {
+        "feature": "txns_last_hour",
+        "shap": 0.19079311538904714,
+        "value": 2.0
+      }
+    ]
+  },
+  {
+    "row": 734,
+    "fraud_probability": 0.9983123639970172,
+    "base_log_odds": -5.716659235108462,
+    "merchant_category": "grocery",
+    "amount": 320.76,
+    "top_contributions": [
+      {
+        "feature": "amount_to_avg_ratio",
+        "shap": 7.995560147441254,
+        "value": 14.365
+      },
+      {
+        "feature": "amount",
+        "shap": 2.827503917351153,
+        "value": 320.76
+      },
+      {
+        "feature": "distance_from_home_km",
+        "shap": 0.9564449446405426,
+        "value": 126.8
+      },
+      {
+        "feature": "late_night",
+        "shap": 0.21097225195130276,
+        "value": 1.0
+      },
+      {
+        "feature": "is_online",
+        "shap": 0.2021887859988804,
+        "value": 1.0
+      },
+      {
+        "feature": "merch_grocery",
+        "shap": -0.18943080991462247,
+        "value": 1.0
+      }
+    ]
+  },
+  {
+    "row": 6103,
+    "fraud_probability": 0.9981729488756463,
+    "base_log_odds": -5.716659235108462,
+    "merchant_category": "gambling",
+    "amount": 241.55,
+    "top_contributions": [
+      {
+        "feature": "amount_to_avg_ratio",
+        "shap": 9.588402370516997,
+        "value": 16.039
+      },
+      {
+        "feature": "amount",
+        "shap": 1.8541476832909307,
+        "value": 241.55
+      },
+      {
+        "feature": "merch_gambling",
+        "shap": 0.45446232725809926,
+        "value": 1.0
+      },
+      {
+        "feature": "distance_from_home_km",
+        "shap": 0.2649732385840933,
+        "value": 73.3
+      },
+      {
+        "feature": "account_age_days",
+        "shap": -0.2640962575777169,
+        "value": 2856.0
+      },
+      {
+        "feature": "is_online",
+        "shap": 0.1938194942541041,
+        "value": 1.0
+      }
+    ]
+  },
+  {
+    "row": 7569,
+    "fraud_probability": 0.9979754127208391,
+    "base_log_odds": -5.716659235108462,
+    "merchant_category": "dining",
+    "amount": 329.22,
+    "top_contributions": [
+      {
+        "feature": "amount_to_avg_ratio",
+        "shap": 7.3979848715674,
+        "value": 11.183
+      },
+      {
+        "feature": "amount",
+        "shap": 2.738483955326946,
+        "value": 329.22
+      },
+      {
+        "feature": "account_age_days",
+        "shap": 0.8617211112390101,
+        "value": 36.0
+      },
+      {
+        "feature": "distance_from_home_km",
+        "shap": 0.8080228267935613,
+        "value": 113.6
+      },
+      {
+        "feature": "is_online",
+        "shap": 0.2853516326393034,
+        "value": 1.0
+      },
+      {
+        "feature": "late_night",
+        "shap": -0.10057850263811281,
+        "value": 0.0
+      }
+    ]
+  },
+  {
+    "row": 733,
+    "fraud_probability": 0.9979072651147544,
+    "base_log_odds": -5.716659235108462,
+    "merchant_category": "online_retail",
+    "amount": 336.9,
+    "top_contributions": [
+      {
+        "feature": "amount_to_avg_ratio",
+        "shap": 7.774171168822585,
+        "value": 11.985
+      },
+      {
+        "feature": "amount",
+        "shap": 2.8461661873863306,
+        "value": 336.9
+      },
+      {
+        "feature": "distance_from_home_km",
+        "shap": 0.9239260992955861,
+        "value": 109.9
+      },
+      {
+        "feature": "account_age_days",
+        "shap": 0.2517351999664568,
+        "value": 61.0
+      },
+      {
+        "feature": "is_online",
+        "shap": 0.23991320051725984,
+        "value": 1.0
+      },
+      {
+        "feature": "late_night",
+        "shap": -0.11674033357694778,
+        "value": 0.0
+      }
+    ]
+  },
+  {
+    "row": 5146,
+    "fraud_probability": 0.9978394553742541,
+    "base_log_odds": -5.716659235108462,
+    "merchant_category": "online_retail",
+    "amount": 363.63,
+    "top_contributions": [
+      {
+        "feature": "amount_to_avg_ratio",
+        "shap": 8.123746801945945,
+        "value": 12.227
+      },
+      {
+        "feature": "amount",
+        "shap": 2.834755946782911,
+        "value": 363.63
+      },
+      {
+        "feature": "distance_from_home_km",
+        "shap": 0.9405855249542446,
+        "value": 124.8
+      },
+      {
+        "feature": "is_online",
+        "shap": 0.12944742737930545,
+        "value": 1.0
+      },
+      {
+        "feature": "late_night",
+        "shap": -0.10428639830499345,
+        "value": 0.0
+      },
+      {
+        "feature": "merch_grocery",
+        "shap": 0.08259160071545829,
+        "value": 0.0
+      }
+    ]
+  },
+  {
+    "row": 7417,
+    "fraud_probability": 0.997801792850496,
+    "base_log_odds": -5.716659235108462,
+    "merchant_category": "cash_advance",
+    "amount": 1061.45,
+    "top_contributions": [
+      {
+        "feature": "amount_to_avg_ratio",
+        "shap": 8.117299445923074,
+        "value": 38.264
+      },
+      {
+        "feature": "amount",
+        "shap": 2.0709491531125903,
+        "value": 1061.45
+      },
+      {
+        "feature": "merch_cash_advance",
+        "shap": 0.8643616083571272,
+        "value": 1.0
+      },
+      {
+        "feature": "account_age_days",
+        "shap": 0.22118332051222586,
+        "value": 1166.0
+      },
+      {
+        "feature": "distance_from_home_km",
+        "shap": 0.2147327896222811,
+        "value": 32.2
+      },
+      {
+        "feature": "is_online",
+        "shap": 0.17334425508190782,
+        "value": 1.0
+      }
+    ]
+  },
+  {
+    "row": 8842,
+    "fraud_probability": 0.997706460274763,
+    "base_log_odds": -5.716659235108462,
+    "merchant_category": "electronics",
+    "amount": 487.33,
+    "top_contributions": [
+      {
+        "feature": "amount_to_avg_ratio",
+        "shap": 8.133708470794407,
+        "value": 10.455
+      },
+      {
+        "feature": "amount",
+        "shap": 2.774190271742899,
+        "value": 487.33
+      },
+      {
+        "feature": "distance_from_home_km",
+        "shap": 0.9270278488160825,
+        "value": 121.3
+      },
+      {
+        "feature": "account_age_days",
+        "shap": -0.20510130550999364,
+        "value": 2605.0
+      },
+      {
+        "feature": "merch_electronics",
+        "shap": 0.18189257853633567,
+        "value": 1.0
+      },
+      {
+        "feature": "is_online",
+        "shap": 0.12944742737930545,
+        "value": 1.0
+      }
+    ]
+  },
+  {
+    "row": 7647,
+    "fraud_probability": 0.9975977333378702,
+    "base_log_odds": -5.716659235108462,
+    "merchant_category": "online_retail",
+    "amount": 238.04,
+    "top_contributions": [
+      {
+        "feature": "amount_to_avg_ratio",
+        "shap": 9.134932391174068,
+        "value": 13.13
+      },
+      {
+        "feature": "amount",
+        "shap": 0.9552316798757021,
+        "value": 238.04
+      },
+      {
+        "feature": "txns_last_hour",
+        "shap": 0.5435706805028196,
+        "value": 4.0
+      },
+      {
+        "feature": "late_night",
+        "shap": 0.2348522639778733,
+        "value": 1.0
+      },
+      {
+        "feature": "account_age_days",
+        "shap": 0.22881368632552482,
+        "value": 861.0
+      },
+      {
+        "feature": "distance_from_home_km",
+        "shap": 0.22646402137846233,
+        "value": 78.1
+      }
+    ]
+  },
+  {
+    "row": 6395,
+    "fraud_probability": 0.9970832477310664,
+    "base_log_odds": -5.716659235108462,
+    "merchant_category": "gambling",
+    "amount": 229.75,
+    "top_contributions": [
+      {
+        "feature": "amount_to_avg_ratio",
+        "shap": 10.00995700342658,
+        "value": 11.158
+      },
+      {
+        "feature": "merch_gambling",
+        "shap": 0.6462358594887778,
+        "value": 1.0
+      },
+      {
+        "feature": "account_age_days",
+        "shap": 0.2574939611170963,
+        "value": 374.0
+      },
+      {
+        "feature": "amount",
+        "shap": 0.2430573605526018,
+        "value": 229.75
+      },
+      {
+        "feature": "distance_from_home_km",
+        "shap": 0.21896823465286713,
+        "value": 49.5
+      },
+      {
+        "feature": "is_online",
+        "shap": 0.21291096754957517,
+        "value": 1.0
+      }
+    ]
+  },
+  {
+    "row": 6792,
+    "fraud_probability": 0.9969510587955225,
+    "base_log_odds": -5.716659235108462,
+    "merchant_category": "cash_advance",
+    "amount": 297.28,
+    "top_contributions": [
+      {
+        "feature": "amount_to_avg_ratio",
+        "shap": 7.878145222524279,
+        "value": 14.313
+      },
+      {
+        "feature": "amount",
+        "shap": 2.126097845588586,
+        "value": 297.28
+      },
+      {
+        "feature": "merch_cash_advance",
+        "shap": 0.8546143296682488,
+        "value": 1.0
+      },
+      {
+        "feature": "distance_from_home_km",
+        "shap": 0.3006857885078567,
+        "value": 25.4
+      },
+      {
+        "feature": "is_online",
+        "shap": 0.2510574633350914,
+        "value": 1.0
+      },
+      {
+        "feature": "account_age_days",
+        "shap": 0.1703644435287124,
+        "value": 1368.0
+      }
+    ]
+  }
+]
