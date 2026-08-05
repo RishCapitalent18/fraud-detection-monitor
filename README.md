@@ -91,4 +91,4 @@ fraud-detection-monitor/
 +-- reports/                    # precomputed artifacts read by the app
 ```
 
-> Data is fully synthetic and generated locally; no real cardholder data is used.
+
